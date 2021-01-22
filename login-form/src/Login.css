@@ -1,0 +1,65 @@
+
+
+.App{
+  height: 100vh;
+  width: 100%;
+  color: black;
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  
+}
+
+.display__form{
+  z-index: 2;
+  padding-top: 6%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.register{
+  border: 1px solid black;
+  border-radius: 5vh;
+  justify-content: center;
+  padding-left: 3%;
+  padding-right: 1%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 60vh;
+  font-size: 3.2vh;
+  line-height: 6vh;
+}
+
+
+.register > input{
+  border-radius: 1.5vh;
+  width: 90%;
+  height: 6vh;
+  font-size: 2.8vh;
+  outline: none;
+  border: none;
+  box-shadow: 4px 2px #b1b1b1;
+}
+
+
+.sub__button{
+  margin-top: 2vh;
+  border-radius: 1.5vh;
+  width: 12vw;
+  height: 7vh;
+  padding: 0.5vh;
+  font-size: 3.5vh;
+  /* background: none; */
+  color: white;
+  background: #0f0f0f;
+  box-shadow: 2px 2px #eeeeee;
+}
+
+.sub__button:focus{
+  outline: none;
+}
+
+
+.sub__button:hover{
+  background: rgb(27, 27, 27);
+}
