@@ -1,0 +1,10 @@
+PUT http://localhost:8000/update
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXRobUBnbWFpbC5jb20iLCJpYXQiOjE2MTEzOTYxMDQsImV4cCI6MTYxMTQxNDEwNH0._v5HTSdLdUm08HZSLJBG0gH3JJZn89EXGBPfNZbp5AM
+
+{
+  "fname": "nikhil",
+  "email": "prathm@gmail.com",
+  "password": "prathmesh",
+  "mobile": "8403482032"
+}

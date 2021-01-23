@@ -1,123 +1,116 @@
-.App{
-    margin: 0;
-    height: 100vh;
-    width: 100%;
-    color: black;
-    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+.App {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  color: black;
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
 }
 
-
-.main{
-    display: flex;
-    flex-direction: column;
+.main {
+  display: flex;
+  flex-direction: column;
 }
 
-.form{
-    border: 1px solid black;
-    border-radius: 5vh;
-    justify-content: center;
-    padding-left: 3%;
-    padding-right: 1%;
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    height: 80vh;
-    font-size: 3.2vh;
-    line-height: 4vh;
+.form {
+  border: 1px solid black;
+  border-radius: 5vh;
+  justify-content: center;
+  padding-left: 3%;
+  padding-right: 1%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 80vh;
+  font-size: 3.2vh;
+  line-height: 4vh;
 }
-
 
 .form > input {
-    border-radius: 1.5vh;
-    width: 90%;
-    height: 5vh;
-    font-size: 2.8vh;
-    outline: none;
-    border: none;
-    box-shadow: 4px 2px #b1b1b1;
+  border-radius: 1.5vh;
+  width: 90%;
+  height: 5vh;
+  font-size: 2.8vh;
+  outline: none;
+  border: none;
+  box-shadow: 4px 2px #b1b1b1;
 }
 
-.display__form1{
-    display: flex;
-    justify-content: center;
+.display__form1 {
+  display: flex;
+  justify-content: center;
 }
 
 .form > button {
-    margin-top: 2vh;
-    width: 9vw;
-    height: 7vh;
-    border-radius: 2vh;
-    padding: 1vh;
-    font-size: 2vh;
-    color: white;
-    background: #0f0f0f;
-    box-shadow: 2px 2px #eeeeee;
-} 
-
-.form > button:focus{
-    outline: none;
+  margin-top: 2vh;
+  width: 9vw;
+  height: 7vh;
+  border-radius: 2vh;
+  padding: 1vh;
+  font-size: 2vh;
+  color: white;
+  background: #0f0f0f;
+  box-shadow: 2px 2px #eeeeee;
 }
 
-
-
-.update{
-    display: none;
+.form > button:focus {
+  outline: none;
 }
 
-.update.active{
-    position: absolute;
-    margin-top: -65vh;
-    margin-left: 30vw;
-    display: flex;
-    flex-direction: column;
-    height: 40vh;
-    background-color: whitesmoke;
-    width: 40vw;
-    line-height: 6vh;
-    font-size: 4vh;
-    justify-content: center;
-    align-items: center;
+.update {
+  display: none;
 }
 
-.update.active > input{
-    border-radius: 1vh;
-    height: 5vh;
-    margin-bottom: 2vh;
-    font-size: 3vh;
-    width: 80%;
-    outline: none;
-    border: none;
-    background-color: #0f0f0f;
-    color: white;
+.update.active {
+  position: absolute;
+  margin-top: -65vh;
+  margin-left: 30vw;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  background-color: whitesmoke;
+  width: 40vw;
+  line-height: 6vh;
+  font-size: 4vh;
+  justify-content: center;
+  align-items: center;
 }
 
-
+.update.active > input {
+  border-radius: 1vh;
+  height: 5vh;
+  margin-bottom: 2vh;
+  font-size: 3vh;
+  width: 80%;
+  outline: none;
+  border: none;
+  background-color: #0f0f0f;
+  color: white;
+}
 
 /* .update.active > label{
     margin-left: -28.4vw;
 } */
 
-.update.active > .close__button{
-    width:10vh;
-    height: 4vw;
-    position: absolute;
-    margin-top: -37.5vh;
-    margin-left:37vw;
-    border-radius: 50%;
+.update.active > .close__button {
+  width: 10vh;
+  height: 4vw;
+  position: absolute;
+  margin-top: -37.5vh;
+  margin-left: 37vw;
+  border-radius: 50%;
 }
 
-.update.active > button:focus{
-    outline: none;
+.update.active > button:focus {
+  outline: none;
 }
-
 
 .update.active > button {
-    margin-top: 2vh;
-    width: 9vw;
-    height: 7vh;
-    border-radius: 2vh;
-    padding: 1vh;
-    font-size: 2vh;
-    color: white;
-    background: #0f0f0f;
-} 
+  margin-top: 2vh;
+  width: 9vw;
+  height: 7vh;
+  border-radius: 2vh;
+  padding: 1vh;
+  font-size: 2vh;
+  color: white;
+  background: #0f0f0f;
+}
